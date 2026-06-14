@@ -1,0 +1,46 @@
+@use '../abstracts' as a;
+
+h1, h2, h3, h4 {
+  font-family: a.$font-serif;
+  color: a.$color-brown-900;
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: clamp(2.2rem, 5.5vw, 3.6rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 2.9rem);
+}
+
+h3 {
+  font-size: a.$text-xl;
+}
+
+p {
+  color: a.$color-brown-600;
+}
+
+// Caligrafia
+.script {
+  @include a.font-script;
+  color: a.$color-gold-600;
+}
+
+// Rótulo acima do título
+.eyebrow {
+  display: block;
+  @include a.font-script(2rem);
+  color: a.$color-gold-600;
+  margin-bottom: calc(a.$space-4 / -1);
+}
+
+// Divisor ornamental
+.flourish {
+  display: block;
+  text-align: center;
+  color: a.$color-gold-500;
+  margin-block: a.$space-4;
+}

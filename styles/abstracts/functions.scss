@@ -1,0 +1,18 @@
+@use 'sass:math';
+
+// px -> rem
+@function rem($px, $base: 16) {
+  @return math.div($px, $base) * 1rem;
+}
+
+// Tamanho fluido com clamp()
+@function fluid-size($min, $max, $min-vw: 320px, $max-vw: 1140px) {
+  $slope: math.div($max - $min, $max-vw - $min-vw);
+  $intercept: $min - $slope * $min-vw;
+  @return clamp(#{$min}, #{$intercept + $slope * 100vw}, #{$max});
+}
+
+// Cor com transparência 
+@function alpha($color, $opacity) {
+  @return rgba($color, $opacity);
+}

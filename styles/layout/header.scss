@@ -1,0 +1,19 @@
+@use '../abstracts' as a;
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  transition: transform a.$transition-base;
+  @include a.focus-ring;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &__logo {
+    height: clamp(35px, 4.5vw, 42px);
+    width: auto;
+    display: block;
+    object-fit: contain;
+  }
+}

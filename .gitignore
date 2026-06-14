@@ -3,7 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
-node_modules
+
+# Arquivos de mapa do SCSS (apenas para debug local)
+css/*.map
+styles/*.css
+styles/*.map
+styles/**/*.map
 # User-specific files
 *.rsuser
 *.suo

@@ -1,0 +1,88 @@
+// Paleta sépia
+$color-sepia-100: #FBF4E4;
+$color-sepia-200: #F4E6C8;
+$color-sepia-300: #E3D0A8;
+$color-sepia-400:  #D1B98A;
+
+//Texto marrom 
+$color-brown-900: #3B2A22;
+$color-brown-600: #6B4F3F;
+$color-brown-400: #8C6B52;
+
+//Ouro 
+$color-gold-400:  #E0C074;
+$color-gold-500: #C9A34F;
+$color-gold-600: #B08A3C;
+
+//vinho
+$color-wine-700: #5E2B2B;
+$color-wine-600:#722f2f;
+
+
+// WhatsApp
+$color-whatsapp:      #25D366;
+$color-whatsapp-dark: #1ebe57;
+
+//Sombras 
+$shadow-sm: 0 4px 12px rgba(59,42,34,0.10);
+$shadow-lg: 0 12px 40px rgba(59,42,34,0.16);
+$shadow-smooth: 0 20px 60px rgba(59, 42, 34, 0.22);
+
+//Tipografia 
+$font-script: 'Great Vibes', cursive;
+$font-serif: 'Cormorant Garamond', Garamond, serif;
+$font-body: 'EB Garamond', Garamond, serif;
+
+//Escala de Texto
+$text-xs: 0.80rem;
+$text-sm: 0.92rem;
+$text-base: 1.05rem;
+$text-md: 1.15rem;
+$text-lg: 1.30rem;
+$text-xl: 1.55rem;
+$text-2xl: 2.00rem;
+$text-3xl: 2.60rem;
+
+// Escala de espaçamento
+$space-1: 0.25rem;
+$space-2: 0.5rem;
+$space-3: 0.75rem;
+$space-4: 1rem;
+$space-5: 1.25rem;
+$space-6: 1.5rem;
+$space-8: 2rem;
+$space-10: 2.5rem;
+$space-12: 3rem;
+$space-16: 4rem;
+$space-20: 5rem;
+$space-24: 6rem;
+
+//Bordas
+$radius-sm: 6px;
+$radius-md: 10px;
+$radius-lg: 16px;
+$radius-full: 9999px;
+
+//transições
+$transition-fast: 0.15s ease;
+$transition-normal: 0.25s ease;
+$transition-slow: 0.35s ease;
+$transition-base: $transition-normal;
+
+//layouts
+$container-max:     1140px;
+$container-padding: 1.5rem;
+$header-height:     68px;
+
+//Z-index
+$z-header: 50;
+$z-overlay:100;
+$z-float:80;
+
+//breakpoints
+$breakpoints: (
+    "sm": 480px,
+    "md": 768px,
+    "lg": 900px,
+    "xl": 1024px,
+);

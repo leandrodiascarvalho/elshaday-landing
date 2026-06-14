@@ -1,0 +1,59 @@
+@use '../abstracts' as a;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-size: a.$text-md;
+  font-family: a.$font-body;
+  line-height: 1.75;
+  letter-spacing: 0;
+  color: a.$color-brown-900;
+  background-color: a.$color-sepia-200;
+  background-image:
+    radial-gradient(circle at 18% 18%, rgba(208, 185, 138, 0.28) 0, transparent 44%),
+    radial-gradient(circle at 82% 64%, rgba(176, 138, 60, 0.12) 0, transparent 40%);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+img, picture, video{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul,ol{
+  list-style: none;
+}
+a {
+  color: a.$color-gold-600;
+  text-decoration: none;
+  transition: color a.$transition-base;
+}
+button{
+cursor:pointer;
+}  
+::selection{
+  background-color:a.$color-gold-400;
+  color: a.$color-brown-900;
+}
+@media (prefers-reduced-motion: reduce) {
+  
+*,
+*::before,
+*::after{
+  animation-duration:0.01ms !important;
+  animation-timeline: none !important;
+  scroll-behavior: auto !important;
+}
+}
+
