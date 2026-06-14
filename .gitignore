@@ -3,6 +3,7 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+node_modules
 # User-specific files
 *.rsuser
 *.suo
@@ -427,3 +428,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Compiled CSS maps and Sass compilation outputs
+*.css.map
+styles/**/*.css
