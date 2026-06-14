@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elshaday — Criação e Manutenção de Sites | Leandro Dias de Carvalho</title>
+  <meta name="description" content="Elshaday: criação de landing pages e sites, e manutenção contínua
+    para pequenos e médios negócios. A força silenciosa por trás do seu site." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Elshaday — Criação e Manutenção de Sites" />
+  <meta property="og:description" content="A força silenciosa por trás do seu site." />
+  <meta property="og:type" content="website" />
+
+  <!-- Tipografia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+
+  <!-- CSS compilado -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Skip link -->
+  <a href="#main-content" class="skip-link">Ir para o conteúdo principal</a>
+
+  <!-- ============================================================
+       HEADER
+  ============================================================ -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+
+      <a href="#hero" class="brand" aria-label="Elshaday — voltar ao início">
+        <img src="img/logo.png" alt="" class="brand__logo" />
+      </a>
+
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="#sobre" class="nav__link">Sobre</a></li>
+        <li><a href="#servicos" class="nav__link">Serviços</a></li>
+        <li><a href="#portfolio" class="nav__link">Portfólio</a></li>
+        <li><a href="#faq" class="nav__link">FAQ</a></li>
+        <li>
+          <a href="#contato" class="nav__link btn btn--primary btn--sm">
+            Solicitar proposta
+          </a>
+        </li>
+      </ul>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="navLinks">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       MAIN
+  ============================================================ -->
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+
+        <div class="hero__brand">
+          <img src="img/logo2.png" alt="Elshaday - A força silenciosa por trás do seu site" class="hero__logo" />
+        </div>
+
+        <h1 class="hero__title" id="hero-title">
+          <span class="sr-only">Sites que se destacam e geram resultados para o seu negócio na internet.</span>
+          <span aria-hidden="true">Sites que <em id="hero-typewriter">conectam e convertem.</em></span>
+        </h1>
+
+        <p class="hero__sub">
+          Criação de landing pages, sites completos e manutenção contínua
+          para pequenos e médios negócios que querem se destacar na internet —
+          com beleza, performance e cuidado em cada detalhe.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#contato" class="btn btn--primary">
+            <i class="fa-regular fa-calendar-check" aria-hidden="true"></i>
+            Agendar uma conversa
+          </a>
+          <a href="https://wa.me/5599999999999?text=Ol%C3%A1%20Leandro!%20Vim%20pelo%20site%20da%20Elshaday%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." class="btn btn--ghost" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            Falar no WhatsApp
+            <span class="sr-only">(abre em nova janela)</span>
+          </a>
+        </div>
+
+        <ul class="hero__cred" aria-label="Credenciais de Leandro">
+          <li>
+            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+            Ciência da Computação (Faculdade Uniamérica - Descomplica) em formação
+          </li>
+          <li>
+            <i class="fa-solid fa-code" aria-hidden="true"></i>
+            Full Stack Java (EBAC) em formação
+          </li>
+          <li>
+            <i class="fa-solid fa-store" aria-hidden="true"></i>
+            Foco em pequenos negócios
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section section--alt" id="sobre" aria-labelledby="sobre-title">
+      <div class="container about__grid">
+
+        <figure class="about__portrait">
+          <span class="script" aria-hidden="true">
+            Leandro<br />Dias de<br />Carvalho
+          </span>
+          <figcaption class="sr-only">Retrato de Leandro Dias de Carvalho, Fundador da Elshaday, 24 anos</figcaption>
+          <small aria-hidden="true">Fundador da Elshaday · 24 anos</small>
+        </figure>
+
+        <div class="about__content">
+          <span class="eyebrow" id="about-eyebrow">Quem sou eu</span>
+
+          <h2 class="about__title" id="sobre-title">Sobre mim</h2>
+
+          <p>
+            Meu nome é Leandro Dias de Carvalho, tenho 24 anos e estou cursando
+            graduação em Ciência da Computação na Faculdade Uniamérica - Descomplica.
+            Hoje aprofundo minha jornada como desenvolvedor Full Stack Java na EBAC,
+            unindo a base sólida da faculdade à prática constante de quem ama construir
+            coisas que funcionam de verdade. A Elshaday nasce desse momento: a vontade
+            de transformar conhecimento técnico em resultados reais para quem empreende.
+          </p>
+
+          <p>
+            Fora das telas, minhas referências dizem muito sobre o meu trabalho.
+            Sou apaixonado por anime, música clássica e pela arte da caligrafia
+            — três mundos que me ensinaram a valorizar o ritmo, a harmonia e o
+            capricho em cada detalhe. É esse olhar estético que carrego para cada
+            projeto: sites que têm alma, que respiram organização e que comunicam
+            profissionalismo sem perder a elegância.
+          </p>
+
+          <p>
+            Meu foco é claro: ajudar pequenos e médios comerciantes a conquistarem
+            uma presença digital de qualidade — sem complicação, sem promessas
+            vazias e com atenção verdadeira a cada cliente.
+          </p>
+
+          <blockquote class="about__quote">
+            "Elshaday" remete à ideia de uma força poderosa e protetora. É
+            exatamente assim que enxergo o meu papel: a estrutura sólida e
+            silenciosa que sustenta tudo por trás — para que o seu negócio
+            apareça, e a tecnologia simplesmente funcione.
+          </blockquote>
+
+          <ul class="about__badges" aria-label="Destaques de formação">
+            <li class="badge">
+              <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+              Ciência da Computação (em formação)
+            </li>
+            <li class="badge">
+              <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+              Full Stack Java (em formação)
+            </li>
+            <li class="badge">
+              <i class="fa-solid fa-gem" aria-hidden="true"></i>
+              Foco em qualidade desde o início
+            </li>
+          </ul>
+
+          <a href="#servicos" class="btn btn--outline btn--sm">
+            Ver serviços
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section" id="servicos" aria-labelledby="servicos-title">
+      <div class="container">
+
+        <header class="section__header">
+          <span class="eyebrow">o que eu faço</span>
+          <h2 id="servicos-title">Serviços</h2>
+          <p>
+            Soluções pensadas para o seu negócio crescer na internet —
+            do primeiro clique ao suporte contínuo.
+          </p>
+        </header>
+
+        <div class="flourish" aria-hidden="true">✦ ❦ ✦</div>
+
+        <div class="services__grid">
+
+          <article class="service-card" aria-labelledby="serv-lp-title">
+            <div class="service-card__icon" aria-hidden="true">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <h3 class="service-card__title" id="serv-lp-title">
+              Criação de Landing Pages
+            </h3>
+            <p class="service-card__description">
+              Uma página única, direta e persuasiva, criada para transformar
+              visitantes em clientes. Ideal para divulgar um produto, serviço,
+              promoção ou captar contatos.
+            </p>
+            <ul class="service-card__benefits">
+              <li class="service-card__benefit">
+                Foco total em conversão e em mais clientes
+              </li>
+              <li class="service-card__benefit">
+                Design profissional e 100% adaptado ao celular
+              </li>
+              <li class="service-card__benefit">
+                Carregamento rápido e otimizado
+              </li>
+              <li class="service-card__benefit">
+                Pronta para Google e redes sociais
+              </li>
+            </ul>
+            <a href="#contato" class="btn btn--primary btn--sm" data-service="Landing Page">
+              Quero este serviço <span class="sr-only">de Criação de Landing Pages</span>
+            </a>
+          </article>
+
+          <article class="service-card" aria-labelledby="serv-site-title">
+            <div class="service-card__icon" aria-hidden="true">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <h3 class="service-card__title" id="serv-site-title">
+              Criação de Sites Completos
+            </h3>
+            <p class="service-card__description">
+              Sites com várias páginas e funcionalidades — institucionais,
+              catálogos, portfólios e mais. Para o negócio que precisa de
+              uma presença digital robusta e organizada.
+            </p>
+            <ul class="service-card__benefits">
+              <li class="service-card__benefit">
+                Presença profissional e credibilidade
+              </li>
+              <li class="service-card__benefit">
+                Estrutura organizada e fácil de navegar
+              </li>
+              <li class="service-card__benefit">
+                Espaço para crescer junto com o seu negócio
+              </li>
+              <li class="service-card__benefit">
+                Otimizado para ser encontrado no Google
+              </li>
+            </ul>
+            <a href="#contato" class="btn btn--primary btn--sm" data-service="Site completo">
+              Quero este serviço <span class="sr-only">de Criação de Sites Completos</span>
+            </a>
+          </article>
+
+          <article class="service-card" aria-labelledby="serv-man-title">
+            <div class="service-card__icon" aria-hidden="true">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <h3 class="service-card__title" id="serv-man-title">
+              Manutenção de Sites
+            </h3>
+            <p class="service-card__description">
+              Seu site sempre atualizado, seguro e no ar. Cuido das
+              atualizações, correções e melhorias para você focar no
+              que importa: o seu negócio.
+            </p>
+            <ul class="service-card__benefits">
+              <li class="service-card__benefit">
+                Site rápido, seguro e sempre funcionando
+              </li>
+              <li class="service-card__benefit">
+                Atualizações e ajustes sem dor de cabeça
+              </li>
+              <li class="service-card__benefit">
+                Suporte próximo e direto com quem criou
+              </li>
+              <li class="service-card__benefit">
+                Tranquilidade para o seu dia a dia
+              </li>
+            </ul>
+            <a href="#contato" class="btn btn--primary btn--sm" data-service="Manutenção">
+              Quero este serviço <span class="sr-only">de Manutenção de Sites</span>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section class="section section--alt" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+
+        <header class="section__header">
+          <span class="eyebrow">trabalhos & estilo</span>
+          <h2 id="portfolio-title">Portfólio</h2>
+          <p>
+            Meus repositórios públicos no GitHub — cada projeto é uma peça
+            construída com cuidado e código limpo.
+          </p>
+        </header>
+
+        <div class="portfolio__grid" id="portfolio-grid">
+          <!-- Preenchido via JS (GitHub API + portfolio.json) -->
+          <noscript>
+            <div class="noscript-fallback" style="grid-column: 1 / -1; text-align: center; padding: 2rem; background: var(--bg-alt, #f9f9f9); border-radius: 8px; border: 1px solid var(--border-color, #eee);">
+              <p style="margin-bottom: 1rem; font-family: sans-serif;">O JavaScript está desativado. Para ver a lista dinâmica de projetos do GitHub, ative o JavaScript no seu navegador.</p>
+              <a href="https://github.com/leandrodiascarvalho" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+                Ver projetos no GitHub <span class="sr-only">(abre em nova janela)</span>
+              </a>
+            </div>
+          </noscript>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section" id="depoimentos" aria-labelledby="dep-title">
+      <div class="container">
+
+        <header class="section__header">
+          <span class="eyebrow">prova social</span>
+          <h2 id="dep-title">O que dizem os clientes</h2>
+          <p>
+            Confiança se constrói com transparência.
+            Aqui ficarão as palavras de quem trabalha comigo.
+          </p>
+        </header>
+
+        <div class="testimonials__grid">
+
+          <figure class="testimonial testimonial--highlight">
+            <blockquote class="testimonial__quote">
+              <p>
+                Este é o início da minha jornada profissional, e eu prefiro ser
+                sincero a inventar histórias: ainda estou construindo meus
+                primeiros cases reais. O que posso garantir, desde já, é
+                dedicação total ao seu projeto, atenção genuína a cada detalhe
+                e suporte de quem realmente se importa. Cada cliente da Elshaday
+                recebe o cuidado de um trabalho feito com paixão — e a promessa
+                de que estarei presente do primeiro contato à entrega final.
+              </p>
+            </blockquote>
+            <figcaption class="testimonial__author">
+              <span class="testimonial__avatar" aria-hidden="true">L</span>
+              <div class="testimonial__info">
+                <strong>Leandro Dias de Carvalho</strong>
+                <small>Fundador da Elshaday</small>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial testimonial--placeholder">
+            <blockquote class="testimonial__quote">
+              <p>
+                Seu depoimento pode estar aqui. Conte como foi trabalhar com
+                a Elshaday e ajude outros empreendedores a darem o primeiro
+                passo com confiança.
+              </p>
+            </blockquote>
+            <figcaption class="testimonial__author">
+              <span class="testimonial__avatar" aria-hidden="true">★</span>
+              <div class="testimonial__info">
+                <strong>Seu nome aqui</strong>
+                <small>Seu negócio</small>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial testimonial--placeholder">
+            <blockquote class="testimonial__quote">
+              <p>
+                Espaço reservado para o próximo cliente satisfeito.
+                Vamos construir essa história juntos?
+              </p>
+            </blockquote>
+            <figcaption class="testimonial__author">
+              <span class="testimonial__avatar" aria-hidden="true">★</span>
+              <div class="testimonial__info">
+                <strong>Seu nome aqui</strong>
+                <small>Seu negócio</small>
+              </div>
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--alt" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+
+        <header class="section__header">
+          <span class="eyebrow">dúvidas frequentes</span>
+          <h2 id="faq-title">Perguntas & Respostas</h2>
+          <p>Tudo o que você precisa saber antes de começar o seu projeto.</p>
+        </header>
+
+        <div class="faq__list" id="faq-list">
+          <details class="faq-item">
+            <summary class="faq-item__question">
+              Quanto custa para criar um site ou landing page?
+              <i class="fa-solid fa-chevron-down faq-item__icon" aria-hidden="true"></i>
+            </summary>
+            <div class="faq-item__answer">
+              <p>
+                O valor depende da complexidade do projeto, do número de páginas e das funcionalidades necessárias. Entre em contato solicitando uma proposta para obter um orçamento personalizado para o seu negócio.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-item__question">
+              Qual é o prazo de entrega de um projeto?
+              <i class="fa-solid fa-chevron-down faq-item__icon" aria-hidden="true"></i>
+            </summary>
+            <div class="faq-item__answer">
+              <p>
+                Uma Landing Page geralmente é entregue em 5 a 10 dias úteis. Sites institucionais mais completos podem levar de 15 a 30 dias, dependendo da velocidade de envio do conteúdo e aprovação do design.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-item__question">
+              Como funciona o serviço de manutenção de sites?
+              <i class="fa-solid fa-chevron-down faq-item__icon" aria-hidden="true"></i>
+            </summary>
+            <div class="faq-item__answer">
+              <p>
+                O serviço de manutenção contínua garante que seu site permaneça seguro, atualizado e no ar. Inclui atualizações de plugins, backup de segurança periódico, correções de bugs e pequenas alterações de conteúdo.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-item__question">
+              Eu preciso ter o conteúdo (textos e imagens) pronto?
+              <i class="fa-solid fa-chevron-down faq-item__icon" aria-hidden="true"></i>
+            </summary>
+            <div class="faq-item__answer">
+              <p>
+                É ideal que você já tenha uma ideia básica ou textos iniciais, mas caso não tenha, eu posso te orientar e ajudar na estruturação do conteúdo para garantir a melhor conversão dos visitantes.
+              </p>
+            </div>
+          </details>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato" aria-labelledby="contato-title">
+      <div class="container">
+
+        <header class="contact__intro">
+          <span class="eyebrow">o primeiro passo</span>
+          <h2 id="contato-title">
+            Vamos conversar sobre o seu projeto?
+          </h2>
+          <p>
+            Conte um pouco sobre o que você precisa. Respondo com atenção e
+            proponho o melhor caminho para o seu negócio brilhar na internet.
+            Sem compromisso e sem pressa.
+          </p>
+        </header>
+
+        <div class="contact__grid">
+
+          <!-- Formulário: proposta -->
+          <form class="form-card" id="formProposta" novalidate>
+            <h3 class="form-card__title">Solicitar proposta</h3>
+            <p class="form-card__intro">
+              Me conte sobre o seu projeto e eu retorno com uma proposta
+              personalizada.
+            </p>
+            <div class="field">
+              <label for="prop-nome">Nome *</label>
+              <input type="text" id="prop-nome" name="nome" placeholder="Seu nome completo" autocomplete="name" required aria-required="true" />
+            </div>
+            <div class="field">
+              <label for="prop-email">E-mail *</label>
+              <input type="email" id="prop-email" name="email" placeholder="seu@email.com" autocomplete="email" required aria-required="true" />
+            </div>
+            <div class="field">
+              <label for="prop-tipo">Tipo de projeto *</label>
+              <select id="prop-tipo" name="tipo" required aria-required="true">
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="Landing Page">Landing Page</option>
+                <option value="Site completo">Site completo</option>
+                <option value="Manutenção">Manutenção</option>
+                <option value="Ainda não sei">Ainda não sei</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="prop-msg">Descrição do projeto</label>
+              <textarea id="prop-msg" name="mensagem" rows="4" placeholder="Conte um pouco sobre o seu negócio..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              Enviar pelo WhatsApp
+            </button>
+            <div class="form__feedback" id="msgProposta" aria-live="polite"></div>
+          </form>
+
+          <!-- Formulário: agendamento -->
+          <form class="form-card" id="formAgenda" novalidate>
+            <h3 class="form-card__title">Agendar uma conversa</h3>
+            <p class="form-card__intro">
+              Prefere conversar primeiro? Escolha o melhor momento e eu
+              entro em contato.
+            </p>
+            <div class="field">
+              <label for="ag-nome">Nome *</label>
+              <input type="text" id="ag-nome" name="nome" placeholder="Seu nome" autocomplete="name" required aria-required="true" />
+            </div>
+            <div class="field">
+              <label for="ag-email">E-mail *</label>
+              <input type="email" id="ag-email" name="email" placeholder="seu@email.com" autocomplete="email" required aria-required="true" />
+            </div>
+            <div class="field">
+              <label for="ag-servico">Serviço desejado</label>
+              <select id="ag-servico" name="servico">
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="Landing Page">Landing Page</option>
+                <option value="Site completo">Site completo</option>
+                <option value="Manutenção">Manutenção</option>
+                <option value="Ainda não sei / quero orientação">
+                  Ainda não sei / quero orientação
+                </option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="ag-horario">Melhor dia e horário</label>
+              <input type="text" id="ag-horario" name="horario" placeholder="Ex.: terça à tarde, após as 14h" />
+            </div>
+            <button type="submit" class="btn btn--wine btn--full">
+              <i class="fa-regular fa-calendar-check" aria-hidden="true"></i>
+              Solicitar agendamento
+            </button>
+            <div class="form__feedback" id="msgAgenda" aria-live="polite"></div>
+          </form>
+
+        </div>
+
+        <div class="contact__extra">
+          <a href="https://wa.me/5599999999999?text=Ol%C3%A1%20Leandro!%20Vim%20pelo%20site%20da%20Elshaday." class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            Falar no WhatsApp agora
+            <span class="sr-only">(abre em nova janela)</span>
+          </a>
+
+          <nav class="social-links" aria-label="Redes sociais e links">
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (abre em nova janela)">
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub (abre em nova janela)">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Portfólio (abre em nova janela)">
+              <i class="fa-solid fa-globe" aria-hidden="true"></i>
+            </a>
+          </nav>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+
+      <div class="site-footer__brand">
+        <span class="brand__name">Elshaday</span>
+        <p class="site-footer__slogan">
+          A força silenciosa por trás do seu site.
+        </p>
+        <p class="site-footer__description">
+          Criação de landing pages, sites e manutenção contínua para
+          pequenos e médios negócios que querem se destacar na internet.
+        </p>
+      </div>
+
+      <nav class="site-footer__nav" aria-label="Links rápidos do rodapé">
+        <ul class="site-footer__nav-list" role="list">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="site-footer__bottom">
+      <div class="container">
+        <p class="site-footer__copy">
+          © <span id="year">2026</span> Elshaday ·
+          Desenvolvido por Leandro Dias de Carvalho.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <a href="https://wa.me/5599999999999?text=Ol%C3%A1%20Leandro!%20Vim%20pelo%20site%20da%20Elshaday." class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp (abre em nova janela)">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- JS como módulo ES6 -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+
+</html>
